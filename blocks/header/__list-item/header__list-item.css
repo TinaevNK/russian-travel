@@ -1,0 +1,8 @@
+.header__list-item {
+  display: inline;
+  margin-left: 18px;
+}
+
+.header__list-item:first-of-type {
+  margin-left: 0%;
+}

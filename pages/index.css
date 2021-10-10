@@ -2,3 +2,23 @@
 
 @import url(../fonts/fonts.css);
 /* подключаем шрифт Inter */
+@import url(../blocks/body/body.css);
+/* фоновый цвет */
+@import url(../blocks/page/page.css);
+/* центрируем, сглаживаем шрифты, тянем сайт до 1280px */
+@import url(../blocks/header/header.css);
+/* шапка сайта */
+@import url(../blocks/header/__container/header__contaner.css);
+/* контейнер шапки, делаем флексом, устанавливаем отступы */
+@import url(../blocks/header/__logo/header__logo.css);
+/* логотип */
+@import url(../blocks/header/__logo-link/header__logo-link.css);
+/* мб можно удалить, хз */
+@import url(../blocks/header/__list/header__list.css);
+/* список */
+@import url(../blocks/header/__list-item/header__list-item.css);
+/* элемент списка */
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+/* ссылка */
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+/* модификатор */
