@@ -4,25 +4,25 @@
   align-items: center;
   margin: 0 auto;
   padding: 0 48px;
-  max-width: calc((984/1280)*100%);
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__container {
-    max-width: calc((928/1024)*100%);
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__container {
-    max-width: calc((768/768)*100%);
+    max-width: 768px;
     padding: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__container {
-    max-width: calc((320/320)*100%);
+    max-width: 320px;
     padding: 0;
   }
 }

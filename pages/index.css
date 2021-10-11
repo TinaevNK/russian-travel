@@ -38,3 +38,26 @@
 @import url(../blocks/lead/__image/lead__image.css);
 /* описание картинки */
 @import url(../blocks/lead/__caption/lead__caption.css);
+
+/* секция intro */
+@import url(../blocks/intro/intro.css);
+/* контейнер intro */
+@import url(../blocks/intro/__container/intro__container.css);
+/* заголовок */
+@import url(../blocks/intro/__title/intro__title.css);
+/* текст */
+@import url(../blocks/intro/__text/intro__text.css);
+/* список */
+@import url(../blocks/intro/__list/intro__list.css);
+/* модификатор списка */
+@import url(../blocks/intro/__list/_weight/intro__list_weight_normal.css);
+
+/* секция photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+/* grid контейнер */
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+/* элементы сетки */
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/* секция places */
+@import url();

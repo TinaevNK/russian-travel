@@ -1,0 +1,20 @@
+.photo-grid__container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-gap: 16px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__container {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__container {
+    padding: 0 16px;
+    grid-gap: 12px;
+  }
+}
