@@ -1,24 +1,40 @@
 @import url(../vendor/normalize.css);
-
-@import url(../fonts/fonts.css);
 /* подключаем шрифт Inter */
-@import url(../blocks/body/body.css);
+@import url(../fonts/fonts.css);
 /* фоновый цвет */
-@import url(../blocks/page/page.css);
+
+@import url(../blocks/body/body.css);
 /* центрируем, сглаживаем шрифты, тянем сайт до 1280px */
-@import url(../blocks/header/header.css);
+@import url(../blocks/page/page.css);
 /* шапка сайта */
-@import url(../blocks/header/__container/header__contaner.css);
+
+@import url(../blocks/header/header.css);
 /* контейнер шапки, делаем флексом, устанавливаем отступы */
-@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__container/header__contaner.css);
 /* логотип */
+@import url(../blocks/header/__logo/header__logo.css);
+/* мб можно удалить, он пустой */
 @import url(../blocks/header/__logo-link/header__logo-link.css);
-/* мб можно удалить, хз */
-@import url(../blocks/header/__list/header__list.css);
 /* список */
-@import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/__list/header__list.css);
 /* элемент списка */
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
 /* ссылка */
-@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 /* модификатор */
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+/* секция lead */
+@import url(../blocks/lead/lead.css);
+/* контейнир lead для размеров и выравнивания */
+@import url(../blocks/lead/__container/lead__container.css);
+/* заголовок lead */
+@import url(../blocks/lead/__title/lead__title.css);
+/* подзаголовок */
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+/* контейнер для выравнивания картинки и описания */
+@import url(../blocks/lead/__description/lead__description.css);
+/* картинка */
+@import url(../blocks/lead/__image/lead__image.css);
+/* описание картинки */
+@import url(../blocks/lead/__caption/lead__caption.css);

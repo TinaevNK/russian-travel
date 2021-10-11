@@ -1,0 +1,28 @@
+.lead__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 48px;
+  max-width: calc((984/1280)*100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__container {
+    max-width: calc((928/1024)*100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__container {
+    max-width: calc((768/768)*100%);
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__container {
+    max-width: calc((320/320)*100%);
+    padding: 0;
+  }
+}
