@@ -80,3 +80,15 @@
 @import url(../blocks/place/__text-container/place__text-container.css);
 /* текст */
 @import url(../blocks/place/__text/place__text.css);
+
+/* секция cover */
+@import url(../blocks/cover/cover.css);
+/* контейнер этого блока */
+@import url(../blocks/cover/__container/cover__container.css);
+/* элемент наведения и фоновое изображение */
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+/* заголовок */
+@import url(../blocks/cover/__title/cover__title.css);
+/* описание */
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
