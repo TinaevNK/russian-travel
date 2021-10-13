@@ -1,0 +1,20 @@
+.footer__copyright {
+  font-size: 14px;
+  line-height: 1.1429;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  transition: opacity .3s ease;
+  opacity: 1;
+}
+
+.footer__copyright:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}

@@ -6,6 +6,13 @@
   text-align: center;
   margin: 0;
   max-width: 360px;
-  position: relative;
   z-index: 2;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.1429;
+    max-width: 288px;
+  }
 }

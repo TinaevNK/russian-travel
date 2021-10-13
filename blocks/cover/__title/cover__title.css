@@ -6,6 +6,14 @@
   max-width: 560px;
   text-align: center;
   margin: 0 0 32px;
-  position: relative;
   z-index: 2;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09375;
+    max-width: 288px;
+    margin: 0 0 16px;
+  }
 }

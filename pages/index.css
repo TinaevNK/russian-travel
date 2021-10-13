@@ -92,3 +92,15 @@
 /* описание */
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
+/* блок подвала сайта */
+@import url(../blocks/footer/footer.css);
+/* его контейнер */
+@import url(../blocks/footer/__container/footer__container.css);
+/* список ссылок */
+@import url(../blocks/footer/__links/footer__links.css);
+/* элементы списка */
+@import url(../blocks/footer/__list/footer__list.css);
+/* сами ссылки */
+@import url(../blocks/footer/__link/footer__link.css);
+/* автор */
+@import url(../blocks/footer/__copyright/footer__copyright.css);

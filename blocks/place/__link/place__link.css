@@ -5,9 +5,9 @@
   font-style: normal;
   color: white;
   opacity: 1;
-  transition: opacity .1s ease;
+  transition: opacity .3s ease;
 }
 
 .place__link:hover {
-  opacity: .7;
+  opacity: .8;
 }

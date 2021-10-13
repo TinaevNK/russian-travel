@@ -1,4 +1,21 @@
 .cover__container {
   padding: 0 48px 92px;
-  max-height: 740px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__container {
+    padding: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__container {
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .cover__container {
+    padding: 0 0 64px;
+  }
 }
