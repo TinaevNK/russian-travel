@@ -1,18 +1,25 @@
 .photo-grid__container {
   display: grid;
-  justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   grid-gap: 16px;
   padding: 0 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .photo-grid__container {
     padding: 0 24px;
+    grid-gap: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .photo-grid__container {
+    padding: 0 24px;
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .photo-grid__container {
     padding: 0 16px;
     grid-gap: 12px;

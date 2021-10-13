@@ -60,4 +60,23 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* секция places */
-@import url();
+@import url(../blocks/places/places.css);
+/* контейнер этой секции */
+@import url(../blocks/places/__container/places__container.css);
+
+/* блок place */
+@import url(../blocks/place/place.css);
+/* заголовок карточки */
+@import url(../blocks/place/__title/place__title.css);
+/* ячейка с веб-сайтом */
+@import url(../blocks/place/__website/place__website.css);
+/* заголовок url */
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+/* сама ссылка */
+@import url(../blocks/place/__link/place__link.css);
+/* фото-ячейка */
+@import url(../blocks/place/__image/place__image.css);
+/* ячейка с текстом */
+@import url(../blocks/place/__text-container/place__text-container.css);
+/* текст */
+@import url(../blocks/place/__text/place__text.css);

@@ -1,0 +1,4 @@
+.place__text-container {
+  display: flex;
+  flex-direction: column;
+}
