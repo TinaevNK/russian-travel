@@ -1,4 +1,8 @@
 .header__list {
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-auto-flow: column;
+  grid-column-gap: 18px;
 }

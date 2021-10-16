@@ -1,20 +1,17 @@
 @import url(../vendor/normalize.css);
 /* подключаем шрифт Inter */
 @import url(../fonts/fonts.css);
-/* фоновый цвет */
-
+/* задаём фоновый цвет */
 @import url(../blocks/body/body.css);
 /* центрируем, сглаживаем шрифты, тянем сайт до 1280px */
 @import url(../blocks/page/page.css);
-/* шапка сайта */
 
+/* шапка сайта */
 @import url(../blocks/header/header.css);
 /* контейнер шапки, делаем флексом, устанавливаем отступы */
 @import url(../blocks/header/__container/header__contaner.css);
 /* логотип */
 @import url(../blocks/header/__logo/header__logo.css);
-/* мб можно удалить, он пустой */
-@import url(../blocks/header/__logo-link/header__logo-link.css);
 /* список */
 @import url(../blocks/header/__list/header__list.css);
 /* элемент списка */
