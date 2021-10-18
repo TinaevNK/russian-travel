@@ -1,4 +1,29 @@
 .places {
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: white;
+  max-width: 984px;
+  padding: 92px 0 92px;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 80px;
+}
+
+@media screen and (max-width: 1150px) {
+  .places {
+    padding: 92px 48px 92px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .places {
+    padding: 88px 24px 90px;
+    grid-row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .places {
+    padding: 64px 0 66px;
+    grid-row-gap: 50px;
+  }
 }

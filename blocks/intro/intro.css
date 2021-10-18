@@ -1,4 +1,28 @@
 .intro {
   color: white;
   font-family: Inter, Arial, Helvetica, sans-serif;
+  max-width: 984px;
+  padding: 92px 48px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0;
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    padding: 88px 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .intro {
+    padding: 64px 16px;
+    max-width: 288px;
+  }
 }

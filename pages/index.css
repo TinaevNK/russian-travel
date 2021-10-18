@@ -6,10 +6,8 @@
 /* центрируем, сглаживаем шрифты, тянем сайт до 1280px */
 @import url(../blocks/page/page.css);
 
-/* шапка сайта */
+/* шапка сайта, делаем флексом, устанавливаем отступы */
 @import url(../blocks/header/header.css);
-/* контейнер шапки, делаем флексом, устанавливаем отступы */
-@import url(../blocks/header/__container/header__contaner.css);
 /* логотип */
 @import url(../blocks/header/__logo/header__logo.css);
 /* список */
@@ -23,8 +21,6 @@
 
 /* секция lead */
 @import url(../blocks/lead/lead.css);
-/* контейнир lead для размеров и выравнивания */
-@import url(../blocks/lead/__container/lead__container.css);
 /* заголовок lead */
 @import url(../blocks/lead/__title/lead__title.css);
 /* подзаголовок */
@@ -38,28 +34,24 @@
 
 /* секция intro */
 @import url(../blocks/intro/intro.css);
-/* контейнер intro */
-@import url(../blocks/intro/__container/intro__container.css);
 /* заголовок */
 @import url(../blocks/intro/__title/intro__title.css);
 /* текст */
 @import url(../blocks/intro/__text/intro__text.css);
 /* список */
 @import url(../blocks/intro/__list/intro__list.css);
-/* модификатор списка */
-@import url(../blocks/intro/__list/_weight/intro__list_weight_normal.css);
+/* количество (span) */
+@import url(../blocks/intro/__amount/intro__amount.css);
 
 /* секция photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
-/* grid контейнер */
-@import url(../blocks/photo-grid/__container/photo-grid__container.css);
-/* элементы сетки */
+/* список для семантики */
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+/* элементы списка (картинки) */
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* секция places */
 @import url(../blocks/places/places.css);
-/* контейнер этой секции */
-@import url(../blocks/places/__container/places__container.css);
 
 /* блок place */
 @import url(../blocks/place/place.css);
@@ -80,8 +72,6 @@
 
 /* секция cover */
 @import url(../blocks/cover/cover.css);
-/* контейнер этого блока */
-@import url(../blocks/cover/__container/cover__container.css);
 /* элемент наведения и фоновое изображение */
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 /* заголовок */
@@ -91,8 +81,6 @@
 
 /* блок подвала сайта */
 @import url(../blocks/footer/footer.css);
-/* его контейнер */
-@import url(../blocks/footer/__container/footer__container.css);
 /* список ссылок */
 @import url(../blocks/footer/__links/footer__links.css);
 /* элементы списка */
